@@ -10,6 +10,11 @@
       "StackName": "amplify-amplifysocialsigninw-dev-231322",
       "StackId": "arn:aws:cloudformation:us-east-1:412797720438:stack/amplify-amplifysocialsigninw-dev-231322/55af9e70-c2b3-11ec-9032-0a7084155cf1",
       "AmplifyAppId": "d2m4nju9cc9irr"
+    },
+    "categories": {
+      "auth": {
+        "amplifysocialsigninw7eaf6d19": {}
+      }
     }
   }
 }
