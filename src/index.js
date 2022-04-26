@@ -27,7 +27,7 @@ const signOutURI = awsExports.oauth.redirectSignOut.split(',')
 if (isLocalhost) {
   awsExports.oauth.redirectSignIn = signInURI[0]
   awsExports.oauth.redirectSignOut = signOutURI[0]
-} else if (window.location.hostname === 'https://dev.d2m4nju9cc9irr.amplifyapp.com/' // Add Your Application Domain here. For Example:
+} else if (window.location.hostname === 'https://master.d2m4nju9cc9irr.amplifyapp.com/' // Add Your Application Domain here. For Example:
   // https://{env}.{appID}.amplifyapp.com/
 ) {
   awsExports.oauth.redirectSignIn = signInURI[1]
